@@ -77,7 +77,7 @@ d3.csv("assets/data/data.csv").then(function(trendData) {
     .attr("text-anchor", "middle")
     .attr("font-size", "8px")
     .attr("font-width", "bold")
-    .attr("fill", "green")
+    .attr("fill", "black")
     .text(d => d.abbr)
     // Step 6: Initialize tool tip
     // ==============================
